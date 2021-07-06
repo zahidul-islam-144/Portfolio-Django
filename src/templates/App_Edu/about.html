@@ -1,0 +1,205 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block link_block %}
+    <link rel="stylesheet" href="{% static 'css/App_Edu/app_edu.css' %}">
+{% endblock link_block %}
+
+{% block about_block %}
+<section class="about">
+    <div class="title-block">
+        <h2 class="title-section">about <span>me</span></h2>
+    </div>
+
+    <div class="about-container">
+        <div class="image-block">
+          <img src="{% static 'images/pro-2.jpg' %}">
+        </div>
+
+        <div class="description-block">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel elit eget sem pellentesque 
+               semper ac vitae justo. Nunc congue erat id ipsum maximus, non varius libero dignissim. Sed vitae 
+               sem at mauris feugiat feugiat id hendrerit nulla. Sed metus tortor, accumsan at facilisis eget, 
+               ultricies ut justo. Morbi enim felis, volutpat sed mauris at, faucibus sagittis dui. Integer nec 
+               sem vitae dolor fringilla facilisis id sit amet ligula. Nullam in accumsan turpis, at aliquam magna.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel elit eget sem pellentesque 
+               semper ac vitae justo. Nunc congue erat id ipsum maximus, non varius libero dignissim. Sed vitae 
+               sem at mauris feugiat feugiat id hendrerit nulla. Sed metus tortor, accumsan at facilisis eget, 
+               ultricies ut justo. Morbi enim felis, volutpat sed mauris at, faucibus sagittis dui. Integer nec 
+               sem vitae dolor fringilla facilisis id sit amet ligula. Nullam in accumsan turpis, at aliquam magna.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel elit eget sem pellentesque 
+               semper ac vitae justo. Nunc congue erat id ipsum maximus, non varius libero dignissim. Sed vitae 
+               sem at mauris feugiat feugiat id hendrerit nulla. Sed metus tortor, accumsan at facilisis eget, 
+               ultricies ut justo. Morbi enim felis, volutpat sed mauris at, faucibus sagittis dui. Integer nec 
+            </p><br>
+            <a href="#">Download Resume</a>
+        </div>
+    </div>
+
+    <div class="nav-tab-menue">
+        <div class="menue-list">
+            <ul>
+                <li><button>Experience</button></li>
+                <li><button>Education</button></li>
+                <li><button>Achievement</button></li>
+                <li><button>Skill</button></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="timeline-container">
+
+        <!-- Eeducation timeline -->
+        <div class="education-tab">
+                        <div class="timeline">
+                <div class="timeline-body">
+                    <!-- item-1 -->
+                    <div class="timeline-item">
+                        <p class="date-time"> 
+                            25 May, 2015<br>to 14 April, 2020
+                        </p>
+                            <div class="content">
+                                <h4 class="title">BSc. in Computer Science & Engineering</h4>
+                                <h6>North South University (NSU), Bangladesh</h6>
+                                <p>
+                                    I am fresh graduate. My major study area is on Software Engineering and Networking & minor is on Algorithm.
+                                </p>
+                            </div>
+                    </div>
+                    <!-- item-2 -->
+                    <div class="timeline-item">
+                        <p class="date-time"> 
+                            25 May, 2015<br>to 14 April, 2020
+                        </p>
+                            <div class="content">
+                                <h4 class="title">BSc. in Computer Science & Engineering</h4>
+                                <h6>North South University (NSU), Bangladesh</h6>
+                                <p>
+                                    I am fresh graduate. My major study area is on Software Engineering and Networking & minor is on Algorithm.
+                                </p>
+                            </div>
+                    </div>
+                    <!-- item-3 -->
+                    <div class="timeline-item">
+                        <p class="date-time"> 
+                            25 May, 2015<br>to 14 April, 2020
+                        </p>
+                            <div class="content">
+                                <h4 class="title">BSc. in Computer Science & Engineering</h4>
+                                <h6>North South University (NSU), Bangladesh</h6>
+                                <p>
+                                    I am fresh graduate. My major study area is on Software Engineering and Networking & minor is on Algorithm.
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience timeline -->
+        <div class="experience-tab">
+            <div class="timeline">
+                <div class="timeline-body">
+                    <!-- item-1 -->
+                    <div class="timeline-item">
+                        <p class="date-time"> 
+                            25 May, 2015<br>to 14 April, 2020
+                        </p>
+                            <div class="content">
+                                <h4 class="title">BSc. in Computer Science & Engineering</h4>
+                                <h6>North South University (NSU), Bangladesh</h6>
+                                <p>
+                                    I am fresh graduate. My major study area is on Software Engineering and Networking & minor is on Algorithm.
+                                </p>
+                            </div>
+                    </div>
+                    <!-- item-2 -->
+                    <div class="timeline-item">
+                        <p class="date-time"> 
+                            25 May, 2015<br>to 14 April, 2020
+                        </p>
+                            <div class="content">
+                                <h4 class="title">BSc. in Computer Science & Engineering</h4>
+                                <h6>North South University (NSU), Bangladesh</h6>
+                                <p>
+                                    I am fresh graduate. My major study area is on Software Engineering and Networking & minor is on Algorithm.
+                                </p>
+                            </div>
+                    </div>
+                    <!-- item-3 -->
+                    <div class="timeline-item">
+                        <p class="date-time"> 
+                            25 May, 2015<br>to 14 April, 2020
+                        </p>
+                            <div class="content">
+                                <h4 class="title">BSc. in Computer Science & Engineering</h4>
+                                <h6>North South University (NSU), Bangladesh</h6>
+                                <p>
+                                    I am fresh graduate. My major study area is on Software Engineering and Networking & minor is on Algorithm.
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Achievement timeline -->
+        <div class="achievement-tab">
+            <div class="timeline">
+                <div class="timeline-body">
+                    <!-- item-1 -->
+                    <div class="timeline-item">
+                        <p class="date-time"> 
+                            25 May, 2015<br>to 14 April, 2020
+                        </p>
+                            <div class="content">
+                                <h4 class="title">BSc. in Computer Science & Engineering</h4>
+                                <h6>North South University (NSU), Bangladesh</h6>
+                                <p>
+                                    I am fresh graduate. My major study area is on Software Engineering and Networking & minor is on Algorithm.
+                                </p>
+                            </div>
+                    </div>
+                    <!-- item-2 -->
+                    <div class="timeline-item">
+                        <p class="date-time"> 
+                            25 May, 2015<br>to 14 April, 2020
+                        </p>
+                            <div class="content">
+                                <h4 class="title">BSc. in Computer Science & Engineering</h4>
+                                <h6>North South University (NSU), Bangladesh</h6>
+                                <p>
+                                    I am fresh graduate. My major study area is on Software Engineering and Networking & minor is on Algorithm.
+                                </p>
+                            </div>
+                    </div>
+                    <!-- item-3 -->
+                    <div class="timeline-item">
+                        <p class="date-time"> 
+                            25 May, 2015<br>to 14 April, 2020
+                        </p>
+                            <div class="content">
+                                <h4 class="title">BSc. in Computer Science & Engineering</h4>
+                                <h6>North South University (NSU), Bangladesh</h6>
+                                <p>
+                                    I am fresh graduate. My major study area is on Software Engineering and Networking & minor is on Algorithm.
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </div>
+    
+
+    
+
+
+</section>
+    
+{% endblock about_block %}
+ 

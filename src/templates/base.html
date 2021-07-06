@@ -1,0 +1,79 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=0,  minimum-scale=1, maximum-scale=1">
+    
+    <!-- Bootstrap CSS -->
+  
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/App_Core/base.css' %}">
+    {% block link_block %}
+
+    {% endblock link_block %}
+
+    <title>Z.Islam</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="logo-block">
+        <div class="text-wave">
+          <span style="--i:1;">z</span>
+          <span style="--i:2;">.</span>
+          <span style="--i:3;">i</span>
+          <span style="--i:4;">s</span>
+          <span style="--i:5;">l</span>
+          <span style="--i:6;">a</span>
+          <span style="--i:7;">m</span>
+        </div>
+      </div>
+
+      <div class="navbar-block">
+        <ul>
+          <li><a href="">home</a></li>
+          <li><a href="">about</a></li>
+          <li><a href="">expertise</a></li>
+          <li><a href="">projects</a></li>
+          <li><a href="">work stacks</a></li>
+          <li><a href="">contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="banner-image">
+        <img class="banner-6" src="{% static 'images/banner-6.jpg' %}">
+      </div>
+
+      <div class="banner-overlay">
+        <h2 class="text">Hello! I'm Zahidul Islam</h2>
+      </div>
+    </section>
+    {% block about_block %}
+      <!-- <section class="about"> </section>  -->
+    {% endblock about_block %}
+
+   
+    <!-- <section class="expertise">
+      <h1>expertise</h1>
+    </section>
+    <section class="projects">
+      <h1>projects</h1>
+    </section>
+    <section class="work-stacks">
+      <h1>work stack</h1>
+    </section>
+    <section class="contact">
+      <h1>contact</h1>
+    </section> -->
+
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/particles.js' %}"></script>
+    <script src="{% static 'js/app.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+  </body>
+</html>
